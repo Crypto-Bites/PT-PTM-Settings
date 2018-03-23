@@ -152,13 +152,13 @@
           }
         ],
         "PairsProperties": {
-          "ALL_buy_value": -10,
-          "ALL_trailing_buy": 0.25,
-          "ALL_trailing_profit": 0.1,
-		  "ALL_max_cost": 0.0015
+          "ALL_buy_value": -30,
+          "ALL_trailing_buy": 0.04,
+          "ALL_trailing_profit": 0.04,
+          "ALL_max_cost": 0.0015
         },
         "DCAProperties": {
-          "trailing_buy": 0.10
+          "trailing_buy": 0.05
         }
       },
       {
@@ -180,12 +180,12 @@
           }
         ],
         "PairsProperties": {
-          "ALL_buy_value": -5,
-          "ALL_trailing_profit": 0.15,
-		  "ALL_max_cost": 0.0015
+          "ALL_buy_value": -20,
+          "ALL_trailing_profit": 0.04,
+          "ALL_max_cost": 0.0015
         },
         "DCAProperties": {
-          "trailing_profit": 0.15
+          "trailing_profit": 0.05
         }
       },
       {
@@ -207,13 +207,13 @@
           }
         ],
         "PairsProperties": {
-		  "ALL_buy_value": 0,
-          "ALL_trailing_buy": 0.15,
-          "ALL_sell_value": 0.86,
-		  "ALL_max_cost": 0.0015
+	  "ALL_buy_value": 0,
+          "ALL_trailing_buy": 0.04,
+          "ALL_sell_value": 0.55,
+	  "ALL_max_cost": 0.0015
         },
         "DCAProperties": {
-          "sell_value": 0.56
+          "sell_value": 0.55
         }
       },
       {
@@ -234,13 +234,13 @@
           }
         ],
         "PairsProperties": {
-		  "ALL_buy_value": 5,
-          "ALL_trailing_buy": 0.20,
-          "ALL_sell_value": 0.96,
-		  "ALL_max_cost": 0.0015
+	  "ALL_buy_value": 5,
+          "ALL_trailing_buy": 0.04,
+          "ALL_sell_value": 0.65,
+          "ALL_max_cost": 0.0015
         },
         "DCAProperties": {
-          "sell_value": 0.76
+          "sell_value": 0.65
         }
       },
       {
@@ -302,7 +302,7 @@
         ],
         "PairsProperties": {
           "ALL_trailing_profit_OFFSETPERCENT": -80,
-		  "ALL_min_profit_OFFSETPERCENT": -80,
+	  "ALL_min_profit_OFFSETPERCENT": -80,
           "ALL_sell_value_OFFSETPERCENT": -80,
           "ALL_sell_only_mode": true,
           "ALL_DCA_enabled": false
